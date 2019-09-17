@@ -1,0 +1,64 @@
+body{
+	background-image: url("../img/6.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+
+#navvy{
+	background-image:linear-gradient(yellow,darkorange) ;
+	border: none;
+	padding: 10px;
+}
+#main a{
+	text-decoration: initial;
+	 font-size: 20px;
+	  color: black;
+}
+#main h4{
+	float: right; 
+    font-family: arial;
+    font-size: 30px;
+    display: block;
+    font-weight: bolder;
+    color: sienna;
+}
+.main-heading-text{
+	font-size:40px;
+	text-align: center;
+	color: yellow;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+.heading-text{
+	color: white;
+}
+#sandy{
+	background-image:linear-gradient(yellow,darkorange) ;
+}
+#one{
+	color: #FFF;
+}
+#one h4{
+	color:  #FFF;
+	font-family: arial;
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+}
